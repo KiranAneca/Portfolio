@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Portfolio - Terrain generator</title>
+		<title>Portfolio - Minewars</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,48 +22,45 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href=# class="logo"><strong>Terrain generator</strong></a>
-									<ul class="icons">
-										<li><a href="https://github.com/KiranAneca/Terrain-generator" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+									<a href="#" class="logo"><strong>Minewars</strong></a>
 								</header>
 
 							<!-- Banner -->
 								<section id="main">
 									<div class="post">
-										
 										<div class="col-6 col-12-small">
 											<h2>Overview</h2>
-											<p>This is a tool that was designed to quickly generate world maps, with both video games and tabletop games like D&D in mind.
-												This version is a prototpye, but I am planning on making a fully fledged tool of this project, with more features.
+											<p>A game made as part of the 2 Games a Month program. A game inspired by the classic worms WMD games, with the twist of being able to mine the map for resources and use those to build.
 											</p>
+											<a class="image fit"><img src="images/MinewarsTutorial.png" alt="" /></a>
+
 										</div>
 										<section>
-											<div class="row">
-												<div class="col-6 col-12-small">
-											
-													<h2>Parameters</h2>
-													<a class="image fit"><img src="images/TerrainSettings.png" alt="" /></a>
-													<p>The parameters influence the way the map is generated and offers the user to change how the map looks.
-
-														You can change:
-														<br>
-														- The size of the map
-														<br>
-														- The biome sizes
-														<br>
-														- The size of the ocean, beaches, plains and mountainranges
+											<div class="posts">
+												<article>
+													<h3>Turn system</h3>
+													<p>Each player controls a team of a certain amount of characters, every time it is your turn, you gain control over the next character in your team.
+														The system is built in a way, it can handle a variable amount of teams and variable amount of characters per team. A turn ends shortly after an attack has ended, or after 60 seconds.
 													</p>
-												</div>
-												<div class="col-6 col-12-small">
-											
-													<h2>Art</h2>
-													<p>A stylized low poly artstyle that makes it easy to add new types.
-														Tiles are split up in different layers to create more diversity between tiles using the same assets
-														and to allow for combination of biomes like a mountainious forest.
+												</article>
+												<article>
+													<h3>Attack system</h3>
+													<p>Each team starts out with a certain number of resources. Each attack costs a certain amount of resources, based on how strong an attack is.
+														Some attacks work better in some scenarios and there are even supporting attacks. 
 													</p>
-													<a class="image fit"><img src="images/TerrainArt.png" alt="" /></a>
-												</div>
+												</article>
+												<article>
+													<h3>Building / Breaking</h3>
+													<p>Attacks can destroy the environment, but that isn't the only way to manipulate your surroundings. You can dig trough the entire map to get to safety or throw your opponent of the map.
+														On top of that, you can also build to reach otherwise unreachable places, or to protect yourself from incoming attacks on the next turn.
+													</p>
+												</article>
+												<article>
+													<h3>Resources</h3>
+													<p>You start every game out with a certain amount of resources, but you will soon run out of these. Every block on the map has the possibility to give some resources depending on the type. Certain ores underground will give you way more.
+														Even when a block is destoyed by a weapon it will drop some resources you can pick up when closeby, but mining will yield way more.
+													</p>
+												</article>
 											</div>
 										</section>
 									</div>	
